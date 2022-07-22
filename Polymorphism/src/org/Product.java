@@ -6,10 +6,10 @@ public class Product
 	int id;
 	double price;
 	
-	public Product(String n, int id, double p)
+	public Product(String name, int id, float price)
 	{
-		this.name = n;
+		this.name = name;
 		this.id = id;
-		this.price = p;
+		this.price = price;
 	}
 }
