@@ -33,7 +33,7 @@ public class AccountService
 		Optional<Account> tempAcc = this.repo.findById(id);
 		Account existing = tempAcc.get();
 		//*primary key should not be changed*
-		existing.setName(acc.getName()); //LomBok used. Program still runs despite these
+		existing.setName(acc.getName()); //LomBok used. Program still runs despite get;set;s not being found
 		existing.setAccountNumber(acc.getAccountNumber());
 		return this.repo.save(existing);
 	}
