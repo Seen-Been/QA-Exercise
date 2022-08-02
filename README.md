@@ -1,3 +1,3 @@
 # QA-Exercise
 
-Sean Heathcote's QA portfolio. *Exercises 1-4 are found within .SPRING folder.*
+Sean H's QA project repository. Exercises 1-4 are present in the root folder.
